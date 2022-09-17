@@ -148,8 +148,8 @@ public class Basics {
         StringBuilder ret = new StringBuilder();
 
         // Fill in the rest of the body here
-        String[] seperated = to_split.split(" ");
-        for (String word : seperated){
+        String[] separated = to_split.split(" ");
+        for (String word : separated){
             ret.append(word.charAt(0));
         }
 
